@@ -20,16 +20,16 @@ obliczonyVAT = (1 + VAT / 100)
 cenaBruttoJava = cenaNettoJava * obliczonyVAT
 cenaBruttoAjax = cenaNettoAjax * obliczonyVAT
 
-print (cenaBruttoJava)
-print (cenaBruttoAjax)
+print ("Cena brutto kursu Java: ", cenaBruttoJava)
+print ("Cena brutto kursu AJAX: ", cenaBruttoAjax)
 
 cenaNettoKomputer = 3499
 cenaNettoMonitor4K = 2599
 cenaNettoBiurko = 1399
 
 cenaBruttoKomputer = cenaNettoKomputer * obliczonyVAT
-print (cenaBruttoKomputer)
+print ("Cena brutto komputera: ", cenaBruttoKomputer)
 cenaBruttoMonitor4K = cenaNettoMonitor4K * obliczonyVAT
-print (cenaBruttoMonitor4K)
+print ("Cena brutto monitora: ", cenaBruttoMonitor4K)
 cenaBruttoBiurko = cenaNettoBiurko * obliczonyVAT
-print (cenaBruttoBiurko)
+print ("Cena brutto biurka: ", cenaBruttoBiurko)

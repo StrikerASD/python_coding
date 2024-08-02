@@ -6,6 +6,6 @@ x = 5; y = 8; z = 10
 
 a, b, c = 1, 5, 15
 
-# Można przypisywać również różne wartości do zmiennych co jest dosyć oczywiste:
+# Można przypisywać różne wartości do zmiennych co jest dosyć oczywiste:
 
 d, e, f = 1, "blabla", True

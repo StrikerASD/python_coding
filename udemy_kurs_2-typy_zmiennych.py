@@ -11,3 +11,5 @@ imie2 = 'Iwo' # String
 zdanie = 'I\'m from Poland' # używając apostrofów trzeba użyć backslash (\) żeby pokazać interpreterowi że zdanie nie kończy się na "I"
 
 jest_czlowiekiem = True # wartość boolean - stan fałszu/prawdy
+
+print (zdanie)

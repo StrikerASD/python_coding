@@ -13,6 +13,8 @@ VAT = 23
 cenaBruttoJava = cenaNettoJava * (1 + VAT / 100)
 cenaBruttoJava = cenaNettoAjax * (1 + VAT / 100)
 
+print(cenaBruttoJava)
+
 ### Można również obliczenie VAT wstawić do zmiennej
 
 obliczonyVAT = (1 + VAT / 100)

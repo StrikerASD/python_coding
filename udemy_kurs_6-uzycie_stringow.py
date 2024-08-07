@@ -35,4 +35,3 @@ print(imie[:3])
 print(nazwisko[:-1])
 
 print(nazwisko[0:4])
-

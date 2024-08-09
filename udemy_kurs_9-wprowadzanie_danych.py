@@ -26,6 +26,6 @@ age = int(input("Podaj swój wiek: "))
 color = input("Podaj swój ulubiony kolor: ")
 
 # Sformatuj i wypisz wynik na ekran:
-print("Hej " + name + ", Twój ulubiony kolor to " + color + ".")
+print("Hej " + name + ", Twój ulubiony kolor to " + color.lower() + ".")
 print("Masz ", age, "lat")
 print("Za rok będziesz miał:", age + 1, "lat")

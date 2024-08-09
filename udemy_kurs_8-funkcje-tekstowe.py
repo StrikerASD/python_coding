@@ -10,3 +10,14 @@ imieKaroliny = imieKaroliny.capitalize()
 
 print(imieKaroliny)
 
+imie = "adam"
+
+print(imie.capitalize())
+
+imie = "GenOWefa"
+
+print(imie.lower())
+
+imie = "Anastazja"
+
+print(imie.upper())

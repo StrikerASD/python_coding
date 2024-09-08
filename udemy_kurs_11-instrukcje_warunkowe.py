@@ -2,7 +2,7 @@ print("Instrukcje warunkowe")
 print("")
 
 print("Wybierz jedną z poniższych opcji:")
-print("Mnożenie - 1 Dzielenie - 2 Dodawanie - 3 Odejmowanie - 4:")
+print("Mnożenie - 1 , Dzielenie - 2,  Dodawanie - 3,  Odejmowanie - 4:")
 wybor = int(input())
 
 if (wybor == 1):

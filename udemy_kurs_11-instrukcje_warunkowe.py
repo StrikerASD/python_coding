@@ -9,6 +9,7 @@ if (wybor == 1):
     a = int(input("Wybierz pierwszą liczbę: "))
     b = int(input("Wybierz drugą liczbę: "))
     print("Wynik mnożenia: ", a, "*", b, "=", (a * b))
+
 elif (wybor == 2):
     a = int(input("Wybierz pierwszą liczbę: "))
     b = int(input("Wybierz drugą liczbę: "))
@@ -26,5 +27,6 @@ elif (wybor == 4):
     a = int(input("Wybierz pierwszą liczbę: "))
     b = int(input("Wybierz drugą liczbę: "))
     print("Wynik odejmowania: ",a, "-", b, "=", (a - b))
+
 else:
     print("Dokonałeś złego wyboru")
